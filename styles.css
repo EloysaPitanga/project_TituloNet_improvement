@@ -499,8 +499,13 @@ footer .content ul a:hover{
 footer .information{
     background-color: var(--darker-primary-color);
     padding-block: 2rem;
+   
 }
 
+footer .content a,
+footer .information .container .address-media{
+    font-size: 1.2rem;
+}
 footer .information .container .address-media{
     display: flex;
     align-items: center;
@@ -534,7 +539,7 @@ footer .information .internCommunication a{
     padding: .2rem 5rem;
     border: 2px solid var(--dark-primarycolor);
     border-radius: 1rem;
-    
+    font-size: 1.2rem;
 }
 
 footer .information .internCommunication a:hover{
@@ -925,5 +930,9 @@ footer .information .internCommunication a:hover{
     footer .information .social-links li{
         flex-grow: 1;
         width: 25%;
+    }
+    footer .content a,
+    footer .information .container .address-media{
+        font-size: 1.6rem;
     }
 }
